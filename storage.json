@@ -1,0 +1,26 @@
+{
+    "telemetry.machineId": "84566646c1b8e5a33ce89ca7bfa8ca099c5841105861e23ba84b41774f4c9db9",
+    "theme": "vs-dark",
+    "themeBackground": "#1e1e1e",
+    "windowsState": {
+        "openedWindows": [],
+        "lastActiveWindow": {
+            "backupPath": "/home/sarvesh/Desktop/pet-shop/Backups/1546672251846",
+            "uiState": {
+                "mode": 1,
+                "x": 448,
+                "y": 156,
+                "width": 1024,
+                "height": 768
+            }
+        }
+    },
+    "pickerWorkingDir": "/home/sarvesh/Desktop",
+    "openedPathsList": {
+        "workspaces2": [
+            "file:///home/sarvesh/Desktop/truffle-petshop-tutorial-complete",
+            "file:///home/sarvesh/Desktop/pet-shop"
+        ],
+        "files2": []
+    }
+}

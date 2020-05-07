@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<mate charest="utf-8" />
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+
+{{#each users}}
+<table>
+
+  <tr>
+    <td>Land ID</td>
+    <td>{{this.land_id}}</td>
+    
+  </tr>
+  <tr>
+    <td>Previous Owner:</td>
+    <td>{{this.current_owner}}</td>
+  </tr>
+  <tr>
+    <td>Previous Public Address:</td>
+    <td>{{this.current_paddress}}</td>
+  </tr>
+  <tr>
+    <td>New Owner:</td>
+    <td>{{this.new_owner}}</td>
+  </tr>
+  <tr>
+    <td>New Public Address:</td>
+    <td>{{this.new_paddress}}</td>
+  </tr>
+  <tr>
+    <td>Date:</td>
+    <td>{{this.d}}</td>
+  </tr>
+</table>
+<br>
+
+        {{/each}}
+
+
+</body>
+</html>
